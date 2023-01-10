@@ -16,7 +16,7 @@
         <tr>
           <td><%= book.title %></td>
           <td><%= book.body %></td>
-          <td><a class="" href="">Show</a></td>
+          <td><%= link_to "show","/books/#{book.id}" %></td>
           <td><a class="" href="">Edit </a></td>
           <td><a class="" href="">Destroy</a></td>
         </tr>
